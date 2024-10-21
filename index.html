@@ -1,0 +1,268 @@
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>My Protfolio</title>
+      <link rel="stylesheet" href="style.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+      
+    </head>
+    <body class="body">
+      <div class="navbar">
+        <div class="logo">
+          <img src="img2.jpg" alt="">
+        </div>
+        <div class="menu">
+          <ul class="list">
+            <li class="items home"><a href="#home"><strong>Home</strong></a></li>
+            <li class="items About"><a href="#about"><strong>About</strong></a></li>
+            <li class="items projects"><a href="#projects"><strong>Projects</strong></a></li>
+            <li class="items contact"><a href="#contact"><strong>Contact</strong></a></li>
+          </ul>
+        </div>
+        <div class="mode">
+          <i class="fa-solid fa-moon"></i>
+        </div>
+      </div>
+
+      <section class="main" id="home">
+          <div class="basic_info">
+              <div class="box1">
+                  <div class="heading1">Hello I'm</div>
+                  <div class="heading2">Web Developer....</div>
+                  <p class="content">
+                      This is Subedar Srikanta, Pursuing final year of my Graduation in the branch of Information Technology, <strong>BVRIT</strong>
+                      
+                  </p>
+              </div>
+              <div class="box2">
+                  <button class="btn">Hire Me</button>
+                  <a href="https://drive.google.com/file/d/1Ns5zVCiOxWFrAxtlAcSvDdIQWEa3pdqg/view?usp=drivesdk" target="_blank"><button class="btn1" >Download CV</button></a>
+              </div>
+              <div class="box3">
+                  <div class="icon_circle"></div>
+                  <a href="https://www.linkedin.com/in/subedarsrikanta" class="icons"><div class="social_icons"><i class="fa-brands fa-linkedin-in"></i></div></a>
+                  <a href="https://x.com/Srikanta_10?t=fIfsUfM4qQmhYb6oZ5oRPA&s=09" class="icons"><div class="social_icons"><i class="fa-brands fa-x-twitter"></i></i></div></a>
+                  <a href="https://www.instagram.com/invites/contact/?igsh=6jqwb9iptz6h&utm_content=6jh8n33" class="icons"><div class="social_icons"><i class="fa-brands fa-instagram"></i></i></div></a>
+                  <a href="https://github.com/SubedarSrikanta" class="icons"><div class="social_icons"><i class="fa-brands fa-github"></i></i></div></a>
+              </div>
+          </div>
+          <div class="image">
+              <img src="img2.jpg" alt="" srcset="">
+              <span>SUBEDAR &nbsp;KUMAR  &nbsp;SRIKANTA</span>
+          </div>
+      </section>
+
+      <section id="about">
+          <div class="heading">
+              About Me
+          </div>
+          <div class="content">
+              <div class="about_me">
+                  <img src="img2.jpg" alt="" srcset="">
+                  <div class="name">
+                      <h1>Subedar Srikanta</h1>
+                      <h3>Web Developer</h3>
+                  </div>
+                  <div class="description">
+                      <p> Hi there! I'm Subedar Srikanta, a passionate web developer with a knack for creating dynamic and user-friendly websites. I love transforming ideas into reality through code and am always eager to learn new technologies. Let's connect and bring your next project to life!</p>
+                  </div>
+                  <a href="https://drive.google.com/file/d/1Ns5zVCiOxWFrAxtlAcSvDdIQWEa3pdqg/view?usp=drivesdk" target="_blank"><div class="btn">View CV</div></a>
+              </div>
+              <div class="knowledge">
+                <div class="skill_bar">
+                  <span class="title">HTML</span>
+                  <div class="skill_back">
+                    <div class="skill_front html">
+                      <span class="percentage">90%</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="skill_bar">
+                  <span class="title">CSS</span>
+                  <div class="skill_back">
+                    <div class="skill_front css">
+                      <span class="percentage">90%</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="skill_bar">
+                  <span class="title">Java Script</span>
+                  <div class="skill_back">
+                    <div class="skill_front javascript">
+                      <span class="percentage">50%</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="skill_bar">
+                  <span class="title">PHP</span>
+                  <div class="skill_back">
+                    <div class="skill_front php">
+                      <span class="percentage">40%</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="skill_bar">
+                  <span class="title">Java</span>
+                  <div class="skill_back">
+                    <div class="skill_front java">
+                      <span class="percentage">60%</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          
+      </section>
+
+
+
+
+      <section id="projects">
+        <div class="heading">
+          My Projects
+        </div>
+        
+        <div class="filter">
+          <button class="btn active" data-filter="all">All</button>
+          <button class="btn" data-filter="websites">Computer Science</button>
+          <button class="btn" id="IOT" data-filter="iot">Internet of Things (IoT)</button>
+        </div>
+        
+        <div class="gallery">
+          
+          <div class="project-item websites">
+            <img src="food.jpg" alt="Food Review Website">
+            <div class="project-info">
+              <h3>Food Review Website</h3>
+              <button class="open-modal" data-modal="modal1">Learn More</button>
+            </div>
+          </div>
+          
+          
+          <div class="project-item websites" id="calculator">
+            <img src="calculator.png" alt="Simple Calculator">
+            <div class="project-info">
+              <h3>Simple Calculator</h3>
+              <button class="open-modal" data-modal="modal2">Learn More</button>
+            </div>
+          </div>
+          
+         
+          <div class="project-item iot">
+            <img src="iot.png" alt="Obstacle Avoiding Robotic Car">
+            <div class="project-info">
+              <h3>Obstacle Avoiding Robotic Car</h3>
+              <button class="open-modal" data-modal="modal3">Learn More</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+    
+      <div id="modal1" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Food Review Website</h2>
+          <img src="food.jpg" alt="">
+          <p>A <strong>Food Review Website</strong> is an online platform where users can share their dining experiences by reviewing and rating restaurants. It helps others make informed decisions by offering insights on food quality, service, ambiance, and pricing. Users can search for restaurants based on location, cuisine, or price, and view detailed reviews and ratings. Each restaurant has a profile with key information, including menus and photos. The platform fosters a community-driven approach to dining recommendations, allowing users to connect, share, and discover new dining experiences while helping restaurants improve their offerings.</p>
+        </div>
+      </div>
+      
+      <div id="modal2" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Simple Calculator</h2>
+          <img src="calculator.png" alt="">
+          <p>The <strong>Simple Calculator</strong> I created is a user-friendly web-based tool designed to perform essential arithmetic operations such as addition, subtraction, multiplication, and division. Developed using HTML, CSS, and JavaScript, it features an intuitive interface with clearly labeled buttons for digits and operators, ensuring ease of use. Users can input numbers, perform calculations, and receive results instantly. The calculator also includes functions for clearing inputs and resetting the screen. Its minimalistic design ensures functionality without distractions, making it ideal for quick calculations in everyday tasks. The responsive layout ensures accessibility across different devices, from desktops to mobile screens.</p>
+        </div>
+      </div>
+      
+      <div id="modal3" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Obstacle Avoiding Robotic Car</h2>
+          <img src="iot.png" alt="">
+          <p>The <strong>Obstacle Avoiding Robotic Car</strong> is an autonomous vehicle designed to detect and navigate around obstacles using sensors, such as ultrasonic or infrared. Built with a microcontroller, the car continuously monitors its environment, and when an obstacle is detected, it adjusts its path to avoid collisions. This project demonstrates fundamental concepts in robotics, sensor integration, and real-time decision-making. It is commonly used in applications like automated delivery systems or robotic exploration. The car’s ability to operate without human intervention makes it a practical example of IoT and AI technologies in action.</p>
+        </div>
+      </div>
+
+
+      
+      <section id="contact">
+        <div class="heading">
+          Contact Me
+        </div>
+      
+        <div class="contact-container">
+          
+          <div class="contact-form">
+            <form id="contactForm" onsubmit="return validateForm()" method="post">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+      
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+      
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+      
+              <button type="submit" class="btn">Send Message</button>
+            </form>
+          </div>
+      
+          <div class="contact-info">
+            <h3>Get in Touch</h3>
+            <p>Email: <a href="mailto:subedarsrikanta123@gmail.com">subedarsrikanta123@gmail.com</a></p>
+            <p>Phone: +91 63022 61799</p>
+            <p>Location: Hyderabad, India</p>
+          </div>
+        </div>
+      </section>
+             
+
+      <footer>
+        <div class="footer-container">
+          <div class="footer-columns">
+            <div class="footer-column">
+              <h4>Subedar Srikanta</h4>
+              <p>Web Developer</p>
+            </div>
+            <div class="footer-column">
+              <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">My Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+              </ul>
+            </div>
+            <div class="footer-column">
+              <h4>Get in Touch</h4>
+              <p>Email: <a href="subedarsrikanta123@gmail.com">subedarsrikanta123@gmail.com</a></p>
+              <p>Phone: +91 63022 61799</p>
+            </div>
+            <div class="footer-column">
+              <h4>Location</h4>
+              <p>Hyderabad, India</p>
+            </div>
+          </div>
+          <hr />
+          <div class="social-media">
+            <a href="https://www.linkedin.com/in/subedarsrikanta"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/SubedarSrikanta"><i class="fa-brands fa-github"></i></a>
+            <a href="https://x.com/Srikanta_10?t=fIfsUfM4qQmhYb6oZ5oRPA&s=09"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/invites/contact/?igsh=6jqwb9iptz6h&utm_content=6jh8n33"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+          <p>&copy; 2024 Subedar Srikanta. All rights reserved.</p>
+        </div>
+      </footer>
+      
+      
+      <script src="javascript.js"></script>
+    </body>
+  </html>
